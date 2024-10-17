@@ -2,6 +2,7 @@
 
 
 <h2 align="center">Function 1 </h2>
+
 ### Firs Create a Function in App.jsx file
 
 ```js
