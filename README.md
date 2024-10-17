@@ -3,8 +3,8 @@
 
 <h2 align="center">Function 1 </h2>
 ### Firs Create a Function in App.jsx file
+
 ```js
-// Function 01 
 function Person (){
     const age = 25
     const money = 25000
@@ -36,6 +36,7 @@ function Student (){
 }
 ```
 ### Call Student Function in App.jsx function into Return Block
+
 ```js
     /* Function 02: CSS Style with className */
     <Student> </Student>
@@ -46,6 +47,7 @@ function Student (){
 
 
 <h2 align="center">Function 03: CSS Style with object variable </h2>
+
 ```js
 function Developer(){
   
@@ -68,6 +70,7 @@ function Developer(){
 }
 ```
 ### Call Developer Function in App.jsx function into Return Block
+
 ```js
     /* Function 03: CSS Style with object variable  */
     <Developer> </Developer>
@@ -98,6 +101,7 @@ function Another(){
 ```
 
 ### Call Developer Function in App.jsx function into Return Block
+
 ```js
     /* Function 04: CSS Style using style tag */
     <Another> </Another>
@@ -112,7 +116,9 @@ function Device(props){
   return <h4 className='default'>Device Name: {props.name} <br />Price: {props.price}</h4>
 }
 ```
+
 ### Call Developer Function in App.jsx function into Return Block
+
 ```js
     /* Function 05. Dynamic Data by Props  */
     <Device name="Laptop" price="55000"> </Device>
@@ -122,6 +128,7 @@ function Device(props){
 
 
 <h2 align="center">Function 06: Dynamic Data by Destructuring </h2>
+
 ```js
 function Player ({name, age, club, position}){
   return (
@@ -136,6 +143,7 @@ function Player ({name, age, club, position}){
 }
 ```
 ### Call Developer Function in App.jsx function into Return Block
+
 ```js
     /* Function 06. Dynamic Data by Destructuring */
     <Player name='Rehan' age='25' club='bursalona' position='Back Keeper'></Player>
@@ -154,6 +162,7 @@ function Player ({name, age, club, position}){
 ## Create Todo.jsx File and write code bellow One by one.
 
 ### First Import Todo Component in App.jsx file 
+
 ```js
 import Todo from './Todo'
 ```
@@ -171,6 +180,7 @@ import Todo from './Todo'
 <h3 align="center">Bellow The All Functions  </h3>
 
 ### Method 01: if else
+
 ```js
 export default function Todo({task, isDone}){
     if(isDone){
@@ -183,6 +193,7 @@ export default function Todo({task, isDone}){
 ```
 
 ### Method 02 
+
 ```js
 export default function Todo({task, isDone}){
     if(isDone){
@@ -193,6 +204,7 @@ export default function Todo({task, isDone}){
 ```
 
 ### Method 03: Turnary Operator
+
 ```js
 export default function Todo({task, isDone}){
     return(
@@ -202,6 +214,7 @@ export default function Todo({task, isDone}){
 ```
 
 ###  Method 04: && Operator
+
 ```js
 export default function Todo({task, isDone}){
     return(
@@ -211,6 +224,7 @@ export default function Todo({task, isDone}){
 ```
 
 ### Method 05: || Operator
+
 ```js
 export default function Todo({task, isDone}){
     return(
@@ -220,6 +234,7 @@ export default function Todo({task, isDone}){
 ```
 
 ### Method 06: Variable Declaration
+
 ```js
 export default function Todo({task, isDone}){
     let itemsList
@@ -246,6 +261,7 @@ export default function Todo({task, isDone}){
 <h1 align="center">Rendering lists of users using map </h1>
 
 ### Create Singer.jsx file And write code bellow
+
 ```js
 export default function Singer({singer}){
     return(
@@ -259,11 +275,13 @@ export default function Singer({singer}){
 ```
 
 ### Import component in App.jsx file in top
+
 ```js
 import Singer from './Singer'
 ```
 
 ### Wite Singer Array in App.jsx file into funtion 
+
 ```js
 // Singer Object
 const singers = [
@@ -274,6 +292,7 @@ const singers = [
 ]
 ```
 ### Map Singer Array in App.jsx file into return Block
+
 ```js
 
 {
